@@ -58,7 +58,6 @@ main{
 }
 .card > .left{
     padding: 25px;
-    padding-left: 35px;
     align-items: center;
 }
 .card > .left > h6{
@@ -76,7 +75,9 @@ main{
     font-weight: var(--Font-Weight-bold);
     font-size: 30px;
     padding: 10px;
+ margin-bottom: 16px;
     width: 100%;
+    line-height: 29px;
 }
 .card > .left > p{
     color: var(--Dark-grayish-blue);
@@ -94,7 +95,7 @@ main{
 .price > h2{
     font-family: var(--Font-Family2);
     font-weight: var(--Font-Weight-bold);
-    font-size: 30px;
+    font-size: 35px;
     color:var(--Dark-cyan);
 }
 .price > p{
