@@ -41,7 +41,7 @@ main{
     top: 50%;
     left: 50%;
     height: 27.3rem;
-    width: 35rem;  
+    width: 37rem;  
     border-radius: 10px;
 }
 .card{
@@ -50,21 +50,22 @@ main{
 }
 .card > .preview{
     width: 100%;
-    height: 104%;
+    height: 98.3%;
     border-radius: 9px 0 0 9px;
 }
 .card > .preview-mobile{
     display: none;
 }
 .card > .left{
-    padding: 19px;
+    padding: 25px;
+    padding-left: 35px;
     align-items: center;
 }
-.card > .left > h5{
+.card > .left > h6{
     color: var(--Dark-grayish-blue);
     font-family: var(--Font-Family1);
     font-weight: var(--Font-Weight-normal);
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     text-transform: uppercase;
     font-size: var(--Font-size);
     padding: 10px;
@@ -73,7 +74,7 @@ main{
     color: var(--Very-dark-blue);
     font-family: var(--Font-Family2);
     font-weight: var(--Font-Weight-bold);
-    font-size: 30px;
+    font-size: 27px;
     padding: 10px;
     width: 90%;
 }
@@ -82,7 +83,7 @@ main{
     font-family: var(--Font-Family1);
     font-weight: var(--Font-Weight-normal);
     font-size: var(--Font-size);
-    line-height: 1.5em;
+    line-height: 1.6em;
     width: 100%;
 }
 .price {
@@ -106,15 +107,24 @@ main{
 .left > .btn{
     margin-top: 2rem;
     background-color: var(--Dark-cyan);
-    color: var(--White);
-    font-family: var(--Font-Family1);
-    font-weight: var(--Font-Weight-bold);
-    border-radius: 5px;
-    padding: 12px 25px;
+    border-radius: 8px;
+    padding: 17px 25px;
     display: flex;
     gap: 1rem;
     cursor: pointer;
+    align-items: center;
 }
+.left > .btn > p{
+    text-align: center;
+    color: var(--White);
+    font-family: var(--Font-Family1);
+    font-weight: var(--Font-Weight-bold);
+    font-size: var(--Font-size);
+}
+.left > .btn > img{
+    margin-left: 2rem;
+}
+
 
 @media(max-width:675px){
     main{
@@ -144,4 +154,8 @@ main{
     .left > p{
         padding: 10px;
     }
+    .left > .btn > img{
+        margin-left: 4rem;
+    }
+    
 }
